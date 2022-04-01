@@ -1,0 +1,23 @@
+{
+  "name": "gfluent",
+  "version": "1.0.0",
+  "description": "A fluent Google Cloud Platform client in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js --coverage --collectCoverageFrom=src/**/*.js --detectOpenHandles --forceExit",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "cloud",
+    "gcp"
+  ],
+  "author": "Zhong Dai",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "jest": "^27.5.1"
+  }
+}
