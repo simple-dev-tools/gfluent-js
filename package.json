@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "A fluent Google Cloud Platform client in Javascript",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simple-dev-tools/gfluent-js"
+  },
   "scripts": {
     "test": "./node_modules/jest/bin/jest.js --coverage --collectCoverageFrom=src/**/*.js --detectOpenHandles --forceExit",
     "lint": "eslint ."
   },
   "keywords": [
-    "cloud",
-    "gcp"
+    "GCP",
+    "BigQuery",
+    "Google"
   ],
   "author": "Zhong Dai",
   "license": "MIT",
